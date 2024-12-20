@@ -1,0 +1,17 @@
+[package]
+name = "snitcher"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+teloxide = { version = "0.12.2", features = ["macros","ctrlc_handler"] }
+log = "0.4.6"
+env_logger = "0.11.3"
+pretty_env_logger = "0.5"
+tokio = { version =  "1.8", features = ["rt-multi-thread", "macros"] }
+reqwest = "0.12.4"
+visdom = "1.0.1"
+rust_decimal = "1.35.0"
+derive_more = "0.99.17"
+sqlite = "0.26.0"
+
